@@ -17,7 +17,7 @@ public class criaConta
         System.out.println("Agencia: " + primeiraConta.agencia);
 
         primeiraConta.numeroConta = 123456;
-        System.out.println("Conta: " +primeiraConta.numeroConta);
+        System.out.println("Conta: " + primeiraConta.numeroConta);
 
         System.out.println("__________________________________");
 
