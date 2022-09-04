@@ -2,29 +2,34 @@ public class criaConta
 {
     public static void main(String[] args)
     {
-        conta primeiraConta = new conta();
+        conta conta1 = new conta();
 
-        primeiraConta.titular = "vitoria alves";
-        System.out.println("Nome do titular: " + primeiraConta.titular);
+        conta1.cliente = "Vitoria Alves";
 
-        primeiraConta.saldo = 200;
-        System.out.println("Saldo: " + primeiraConta.saldo);
+        System.out.println("Nome do titular: " + conta1.cliente);
 
-        primeiraConta.saldo = (primeiraConta.saldo * 0.02) + primeiraConta.saldo;
-        System.out.println("O valor atual com os juros de 2% é de: " + primeiraConta.saldo);
 
-        primeiraConta.agencia = 002;
-        System.out.println("Agencia: " + primeiraConta.agencia);
+        conta1.saldo = 200;
+        System.out.println("Saldo: " + conta1.saldo);
 
-        primeiraConta.numeroConta = 123456;
-        System.out.println("Conta: " + primeiraConta.numeroConta);
+        conta1.saldo = (conta1.saldo * 0.02) + conta1.saldo;
+        System.out.println("O valor atual com os juros de 2% é de: " + conta1.saldo);
+
+        conta1.agencia = 002;
+        System.out.println("Agencia: " + conta1.agencia);
+
+        conta1.numeroConta = 123456;
+        System.out.println("Conta: " + conta1.numeroConta);
 
         System.out.println("__________________________________");
 
         conta segundaConta = new conta();
 
-        segundaConta.titular = "andre silva";
-        System.out.println("Nome do titular: " + segundaConta.titular);
+        segundaConta.cliente = "Andre Silva";
+
+
+        System.out.println("Nome do titular: " + segundaConta.cliente);
+
 
         segundaConta.saldo = 304.5;
         System.out.println("Saldo: " + segundaConta.saldo);
